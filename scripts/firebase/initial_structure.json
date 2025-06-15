@@ -1,0 +1,51 @@
+{
+    "robot_boat": {
+        "status": "on mission",
+        "system": "on",
+        "problem": false
+    },
+    "camera": {
+        "status": false
+    },
+    "sensors": {
+        "gps": {
+            "status": false,
+            "values": {
+                "long": 0,
+                "lati": 0
+            }
+        },
+        "lidar": {
+            "status": false
+        },
+        "thrusters": {
+            "thruster1": {
+                "status": false,
+                "vitesse": 0
+            },
+            "thruster2": {
+                "status": false,
+                "vitesse": 0
+            }
+        }
+    },
+    "navigation": {
+        "Maps": {
+            "map1": {
+                "coordinates": {
+                    "point1": {"long": 0, "lat": 0}
+                }
+            }
+        },
+        "Position": {
+            "time": {
+                "coordinates": {"long": 0, "lat": 0}
+            }
+        },
+        "coverage_path_planning": {
+            "points": {
+                "point1": {"x": 0, "y": 0}
+            }
+        }
+    }
+}
